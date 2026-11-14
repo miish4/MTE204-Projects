@@ -39,7 +39,7 @@ run_case('Circuit #4', A, b, x0, ws, es, maxIter);
 
 % local functions - - - 
 
-%runs gauss-seidel for each w and prints a summary table 
+% runs gauss-seidel for each w and prints a summary table 
 function run_case(name, A, b, x0, ws, es, maxIter)
     fprintf('\n==== %s ====\n', name);
     fprintf(' w | iterations | converged | final error (%%)\n');
